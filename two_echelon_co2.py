@@ -46,6 +46,7 @@ class CO2Parameters:
     
     # Refrigerator storage emissions
     refrigerator_co2_per_tonne_day: float = 42.0
+    refrigerator_opening_cost: float = 257000.0
     
     # Bicycle usage constraints
     bicycle_max_demand_kg: float = 500.0
